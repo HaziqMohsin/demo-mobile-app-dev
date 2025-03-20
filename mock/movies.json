@@ -1,0 +1,80 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "id": "1",
+      "title": "The Galactic Quest",
+      "genre": ["Action", "Sci-Fi"],
+      "duration": 150,
+      "rating": "PG-13",
+      "release_date": "2025-03-01",
+      "description": "A space expedition gone wrong, heroes must fight for survival.",
+      "full_synopsis": "In the distant future, Earth's last remaining spaceship journeys across the galaxy in search of a new home. However, when the crew encounters a hostile alien race, they must band together to survive the ordeal. Featuring spectacular visuals and thrilling action sequences, this film takes you on a breathtaking adventure.",
+      "casts": [
+        "Chris Pratt",
+        "Zoe Saldana",
+        "Robert Downey Jr.",
+        "Scarlett Johansson"
+      ],
+      "director": "James Cameron",
+      "writers": ["Jonathan Nolan", "Lisa Joy"],
+      "poster_url": "https://example.com/posters/galactic_quest.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Mystery Manor",
+      "genre": ["Mystery", "Thriller"],
+      "duration": 120,
+      "rating": "R",
+      "release_date": "2025-02-20",
+      "description": "An investigator unravels secrets within a haunted mansion.",
+      "full_synopsis": "Detective Mason Brown is called to investigate the mysterious deaths occurring within a secluded mansion owned by a reclusive millionaire. As he uncovers more clues, he realizes that not all the horrors are man-made.",
+      "casts": ["Emily Blunt", "Cillian Murphy", "Gary Oldman"],
+      "director": "David Fincher",
+      "writers": ["Aaron Sorkin"],
+      "poster_url": "https://example.com/posters/mystery_manor.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Racing Hearts",
+      "genre": ["Romance", "Drama"],
+      "duration": 110,
+      "rating": "PG",
+      "release_date": "2025-02-10",
+      "description": "Two car enthusiasts fall in love amidst high-speed racing.",
+      "full_synopsis": "Amidst the world of illegal street racing, two rival racers find themselves drawn to each other. They must navigate their passion for speed while avoiding the pitfalls of their dangerous lifestyle.",
+      "casts": ["Ryan Gosling", "Emma Stone", "Vin Diesel"],
+      "director": "Justin Lin",
+      "writers": ["Chris Morgan"],
+      "poster_url": "https://example.com/posters/racing_hearts.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Shadow of War",
+      "genre": ["War", "Drama"],
+      "duration": 140,
+      "rating": "R",
+      "release_date": "2025-01-15",
+      "description": "A gripping tale of soldiers fighting for survival.",
+      "full_synopsis": "Set during World War II, a group of soldiers are trapped behind enemy lines. Their only chance of survival is to trust each other and face the harsh realities of war.",
+      "casts": ["Tom Hardy", "Mark Ruffalo", "Jeremy Renner"],
+      "director": "Christopher Nolan",
+      "writers": ["Christopher Nolan", "Steven Knight"],
+      "poster_url": "https://example.com/posters/shadow_of_war.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Comedy Nights",
+      "genre": ["Comedy"],
+      "duration": 90,
+      "rating": "PG-13",
+      "release_date": "2025-02-05",
+      "description": "A series of hilarious stand-up comedy performances.",
+      "full_synopsis": "The world's best comedians gather for a night of unstoppable laughter. From hilarious anecdotes to brutal roasts, Comedy Nights delivers on its promise to leave audiences in stitches.",
+      "casts": ["Kevin Hart", "Dave Chappelle", "Tiffany Haddish"],
+      "director": "Judd Apatow",
+      "writers": ["Judd Apatow", "Seth Rogen"],
+      "poster_url": "https://example.com/posters/comedy_nights.jpg"
+    }
+  ]
+}
