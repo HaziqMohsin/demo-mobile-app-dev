@@ -131,17 +131,16 @@ export default function MovieList({ title, link }: MovieListProps) {
   const theme = useColorScheme() ?? "dark";
   const [selectedId, setSelectedId] = useState<string>();
 
+  const onPress = () => {
+    console.log("hello");
+  };
+
   const renderItem = ({ item }: { item: ItemData }) => {
     const backgroundColor = item.id === selectedId ? "#000" : "#000";
     const color = item.id === selectedId ? "white" : "black";
 
     return (
-      <Item
-        item={item}
-        onPress={() => setSelectedId(item.id)}
-        textColor={color}
-        theme={theme}
-      />
+      <Item item={item} onPress={onPress} textColor={color} theme={theme} />
     );
   };
   return (
