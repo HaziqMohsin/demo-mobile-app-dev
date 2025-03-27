@@ -1,12 +1,17 @@
 import { StyleSheet, Text, View, TextInput } from "react-native";
-import React from "react";
+import React, { useState } from "react";
 import { ThemedView } from "../ThemedView";
 import { useColorScheme } from "@/hooks/useColorScheme";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import Ionicons from "@expo/vector-icons/Ionicons";
 
-const Search = () => {
+type SearchProps = {
+  setSearchText: any;
+};
+
+const Search = ({ setSearchText }: SearchProps) => {
   const theme = useColorScheme();
+
   return (
     <View style={styles.container}>
       <ThemedView style={styles.searchContainer}>
@@ -16,6 +21,7 @@ const Search = () => {
           color={theme === "dark" ? "white" : "black"}
         />
         <TextInput
+          onChangeText={setSearchText}
           placeholder="Search by movies or cinema hall"
           placeholderTextColor={theme === "dark" ? "gray" : "darkgray"}
           style={[

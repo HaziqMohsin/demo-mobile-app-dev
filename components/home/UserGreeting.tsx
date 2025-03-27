@@ -1,12 +1,9 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
-import { ThemedView } from "../ThemedView";
 import { ThemedText } from "../ThemedText";
 import { Image } from "expo-image";
 import { blurhash } from "@/constants/others";
 import FontAwesome5 from "@expo/vector-icons/FontAwesome5";
-import { Colors } from "@/constants/Colors";
-import { IconSymbol } from "../ui/IconSymbol";
 import { useColorScheme } from "@/hooks/useColorScheme";
 
 const UserGreeting = () => {
