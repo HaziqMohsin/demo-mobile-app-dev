@@ -125,9 +125,11 @@ const Item = ({
 type MovieListProps = {
   title?: string;
   link?: string;
+  data: any;
+  type: string;
 };
 
-export default function MovieList({ title, link }: MovieListProps) {
+export default function MovieList({ title, link, data, type }: MovieListProps) {
   const theme = useColorScheme() ?? "dark";
   const [selectedId, setSelectedId] = useState<string>();
 
@@ -152,7 +154,7 @@ export default function MovieList({ title, link }: MovieListProps) {
         </ThemedText>
       </View>
       <FlatList
-        data={DATA}
+        data={data}
         renderItem={renderItem}
         keyExtractor={(item) => item.id}
         extraData={selectedId}
