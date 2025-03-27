@@ -17,7 +17,11 @@ const Search = () => {
         />
         <TextInput
           placeholder="Search by movies or cinema hall"
-          style={styles.input}
+          placeholderTextColor={theme === "dark" ? "gray" : "darkgray"}
+          style={[
+            styles.input,
+            { color: theme === "dark" ? "white" : "black" },
+          ]}
         />
         <Ionicons
           name="options-outline"
